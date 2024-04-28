@@ -24,4 +24,4 @@ Exported from Figma
 
 Github Link [Project link](https://github.com/Mackie0205/se_project_aroundtheus)
 
-Video 
+Video (https://drive.google.com/file/d/1NpLX-ea35lX3InmI9Dg_BUcaVh7z1Fb3/view?usp=sharing)
