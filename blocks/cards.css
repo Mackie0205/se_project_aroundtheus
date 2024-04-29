@@ -15,7 +15,7 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 720px) {
   .cards__list {
     margin-top: 0;
     padding-top: 0;
