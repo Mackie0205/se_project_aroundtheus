@@ -86,7 +86,14 @@
   .modal__close:hover {
     opacity: 0.5;
   }
+
+  .modal__title::placeholder {
+    color: #000
+  }
   
+  .modal__subtitle::placeholder {
+    color:#000
+  }
 
   @media screen and (max-width: 700px) {
     .modal__close {
