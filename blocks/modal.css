@@ -61,7 +61,8 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16.94px;
-    opacity: .2;
+    color:#000;
+    border-bottom: 1px solid rgba(84 84 84 / 0.7);
   }
 
   .modal__form {
