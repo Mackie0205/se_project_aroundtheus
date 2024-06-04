@@ -73,8 +73,8 @@
   .modal__close {
     position: absolute;
     cursor: pointer;
-    bottom: calc(100% + 5px);
-    left: calc(100% + 5px);
+    top: -45px;
+    right: -45px;
     background-image: url("../images/closeicon.svg");
     border: none;
     background-color: transparent;
@@ -107,6 +107,12 @@
   }
   
   @media screen and (max-width: 320px) {
+    .modal__close {
+      width: 126px;
+      height: 26px;
+      right: -90px;
+    }
+
     .modal__container {
       max-width: 282px;
       max-height: 322px;
