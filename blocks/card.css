@@ -1,44 +1,66 @@
 .card {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  list-style-type: none;
+  overflow: hidden;
+  position: relative;
 }
 
 .card__image {
   width: 282px;
   height: 282px;
-  border-radius: 10px 10px 0 0;
-  display: block;
-}
-
-.card__title {
-  margin: 0;
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 29.05px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 220px;
 }
 
 .card__description {
   display: flex;
-  background-color: white;
-  color: black;
-  max-width: 282px;
-  padding: 25px 20px;
+  background-color: #fff;
+  color: #000;
+  padding: 25px 20px 25px;
   align-items: center;
   justify-content: space-between;
-  border-radius: 0 0 10px 10px;
+}
+
+.card__title {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29.05px;
+  margin: 0;
 }
 
 .card__like-button {
-  height: 18px;
+  background: transparent url(../images/Vector.svg) center no-repeat;
   width: 21px;
-  background: transparent url(../images/like.svg) center no-repeat;
+  height: 18px;
+  display: flex;
+  align-items: center;
   border: none;
+  flex-shrink: 0;
+}
+.card__like-button_active {
+background-image: url(../images/Union.svg);
+}
+   
+.card__delete-button{
+background: transparent url(../images/Trash\ button.svg) center no-repeat ;
+width: 18px;
+height: 19px;
+border: none;
+position: absolute;
+top: 20px;
+right: 10px;
+cursor: pointer;
+}
+.card__delete-button:hover{
+opacity: 0.6;
 }
 
 .card__like-button:hover {
   opacity: 0.5;
   cursor: pointer;
-}
+} 
+
