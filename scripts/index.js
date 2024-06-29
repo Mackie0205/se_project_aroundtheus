@@ -34,7 +34,7 @@ const initialCards = [
 /* -------------------------- PROFILE MODAL ELEMENTS ------------------------- */
 
 const profileEditButton = document.querySelector("#profile-edit-button");
-const modalCloseButton = document.querySelector(".modal__close-button");
+const profileCloseButton = document.querySelector(".modal__close-button");
 const profileEditModal = document.querySelector("#profile-edit-modal");
 const profileTitle = document.querySelector("#profile-title");
 const profileDescription = document.querySelector("#profile-description");
@@ -134,7 +134,7 @@ cardAddCloseButton.addEventListener("click", () => {
     closeModal(cardAddPopUp);
 });
 
-modalCloseButton.addEventListener("click", () => {
+profileCloseButton.addEventListener("click", () => {
     closeModal(profileEditModal);
 });
 
