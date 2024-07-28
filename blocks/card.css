@@ -21,7 +21,7 @@
   justify-content: space-between;
 }
 
-.card__title {
+.card__text {
   font-family: Inter, Arial, Helvetica, sans-serif;
   text-overflow: ellipsis;
   white-space: nowrap;
